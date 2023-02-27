@@ -58,7 +58,7 @@ public class TemplatePlugin extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        getLogger().info("Player joined.");
+        getLogger().info("Player has joined.");
     }
 
     @EventHandler
